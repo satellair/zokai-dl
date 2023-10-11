@@ -1,0 +1,17 @@
+{
+  "name": "zokai-dl",
+  "version": "0.0.1",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "clean video": "rm -rf videoes && echo '🗑️Delete all video files... Done'",
+    "dl": "bun index.ts",
+    "test:flag": "bun index.ts --testFlag"
+  }
+}
