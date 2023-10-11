@@ -36,7 +36,7 @@ It will download `index_4_1.ts` to `index_4_10.ts` to `./videoes`
 - It only download `.ts` file. You need to merge it by yourself. I recommend [FFmpeg](https://ffmpeg.org)
 - This project is for **educational purpose only**. I do not recommend to distributed the download stream to other website.
 
-## Feature list:
+## Checklist:
 - [x] Download video from zaiko.io
 - [ ] Download video from other website
 - [ ] `.mp4` output
